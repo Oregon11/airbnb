@@ -308,5 +308,10 @@
   .content span {
     line-height: 14px;
   }
+  
+  .logs span {
+    display: none;
+  }
+
 
 }
