@@ -1,0 +1,312 @@
+@media all and (max-width: 1170px) {
+
+  header {
+    display: none;
+    position: relative;
+  }
+
+/* グローバル */
+  .button {
+    cursor: pointer;
+  }
+
+  .button svg {
+    display: block;
+    position: absolute;
+    z-index: 13;
+    top: 30px;
+    left: 30px;
+  }
+
+  .fa-angle-down {
+    position: absolute;
+    z-index: 13;
+    color: white;
+    top: 40px;
+    left: 70px;
+  }
+
+  .middle-top {
+    margin-top: 0;
+    height: 0;
+    padding-top: 45%;
+    width: 100%;
+    display: inline-block;
+    background-position: left top;
+  }
+
+  .middle-top .containers {
+    padding: 0;
+  }
+
+  .level {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .level-top {
+    position: relative;
+  }
+  .level-top h2 {
+    position: absolute;
+    top: -8.5rem;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    font-size: 35px;
+    letter-spacing: -1px;
+    line-height: 35px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .rents, .guests {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .level-bt {
+    margin: 0 0 0 1rem;
+    width: auto;
+  }
+
+  .mdmd {
+    display: block;
+  }
+
+  .md-lt, .md-rt {
+    width: 100%;
+    height: auto;
+  }
+
+  .border {
+    margin: 0;
+  }
+  .h1 {
+    font-size: 44px;
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  .steps {
+    display: block;
+  }
+
+  .step {
+    width: 100%;
+  }
+
+  .evidences {
+    padding-bottom: 4rem;
+  }
+  .evidence {
+    flex-wrap: wrap;
+  }
+
+  .ev-rt {
+    order: 1;
+  }
+
+  .ev-lt {
+    order: 2;
+    width: 100%;
+    padding: 0;
+  }
+
+  .ppp {
+    font-size: .85em;
+  }
+
+  .ev-rt img {
+    width: 1000px;
+    height: auto;
+  }
+
+  .fa-quote-left {
+    font-size: 27px;
+    margin-top: 1rem;
+  }
+
+  .quate {
+    font-size: 20px;
+  }
+
+  .protect {
+    width: 100%;
+    line-height: 28px;
+  }
+
+  .protect a {
+    margin-bottom: 2rem;
+    display: inline-block;
+  }
+
+  .wide {
+    padding-bottom: 4rem;
+  }
+
+  .man {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .man span {
+    font-size: 42px;
+  }
+  .man p {
+    margin: 0;
+  }
+
+  .question {
+    padding-bottom: 2.5rem;
+  }
+
+  .quiz {
+    width: 100%;
+  }
+  .quizz {
+    margin-left: 0;
+  }
+  .quiz a {
+    font-size: .9em;
+    padding: 1.3rem 0;
+  }
+
+  .hosting {
+    padding-bottom: 3.5rem;
+  }
+
+  .content {
+    width: 100%;
+    border: 1px solid #eee;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    box-shadow: 0px 2px 4px #aaa;
+  }
+
+  .content img {
+    width: 120px;
+    float: left;
+    margin-right: 1rem;
+    border-radius: 0;
+  }
+  .content p {
+    font-size: 15px;
+  }
+
+  .more {
+    display: none;
+  }
+
+  .earns {
+    padding-bottom: 3rem;
+  }
+
+  .earn {
+    height: 400px;
+    width: auto;
+    padding: 2rem 0 0 3rem;
+  }
+
+  .earn h1 {
+    font-size: 44px;
+    line-height: 44px;
+  }
+
+  .ftt {
+    display: none;
+  }
+
+  footer {
+    padding-bottom: 1.5rem;
+  }
+
+
+
+}
+@media all and (max-width: 770px) {
+
+  .middle-top {
+    padding-top: 87%;
+  }
+
+  .level-top h2 {
+    font-size: 32px;
+    top: -9.7rem;
+    line-height: 32px;
+    text-align: left;
+  }
+
+  .level-input input, .level-input select {
+    padding: 10px 20px 10px 10px;
+  }
+
+  .level-start span {
+    font-weight: bold;
+    font-size: 1.6em;
+    letter-spacing: -1px;
+  }
+
+  .level-bt {
+    font-size: .8em;
+    margin: 0 0 0 .6rem;
+    padding-right: 1rem;
+    width: auto;
+  }
+
+  .middle-md {
+    padding-bottom: 0;
+  }
+
+  .h1 {
+    line-height: 44px;
+  }
+
+  .step {
+    margin-bottom: 2rem;
+  }
+
+  .host {
+    padding: 1.5rem 0;
+  }
+
+  .good {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .steps {
+    padding-top: .5rem;
+  }
+
+  .pay, .about {
+    padding-bottom: 4rem;
+  }
+
+  .earn {
+    height: 400px;
+    width: auto;
+    padding: 1.7rem 0 0 1.6rem;
+  }
+
+  .earn br {
+    display: none;
+  }
+
+  #start, .answer {
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+  }
+
+  .reme a {
+    margin-left: 2rem;
+  }
+
+  .content span {
+    line-height: 14px;
+  }
+
+}
